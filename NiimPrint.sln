@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.5.11801.241 oobstable
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NiimPrint", "NiimPrint\NiimPrint.csproj", "{50DA5ABA-9DA4-C856-C2DE-1E94C3F1E8CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50DA5ABA-9DA4-C856-C2DE-1E94C3F1E8CC}.Debug|x64.ActiveCfg = Debug|x64
+		{50DA5ABA-9DA4-C856-C2DE-1E94C3F1E8CC}.Debug|x64.Build.0 = Debug|x64
+		{50DA5ABA-9DA4-C856-C2DE-1E94C3F1E8CC}.Release|x64.ActiveCfg = Release|x64
+		{50DA5ABA-9DA4-C856-C2DE-1E94C3F1E8CC}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B760D541-1D95-487D-AB52-892E5CC49DED}
+	EndGlobalSection
+EndGlobal
