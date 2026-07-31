@@ -1,6 +1,6 @@
 # NiimPrint
 
-A native Windows CLI for Niimbot BLE label printers.
+Windows command-line print utility for Niimbot BLE label printers.
 
 ## Requirements
 
