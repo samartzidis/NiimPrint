@@ -1,15 +1,9 @@
 using System.CommandLine;
-using System.Reflection;
 using NiimPrint.Commands;
 using Serilog;
 using Serilog.Core;
 using Serilog.Events;
 using Spectre.Console;
-
-var version = Assembly.GetExecutingAssembly().GetName().Version?.ToString(3) ?? "0.0.0";
-
-if (args.Length == 0)
-    AnsiConsole.MarkupLine($"[bold]niimprint[/] v{version}");
 
 var appsettingsPath = Path.Combine(AppContext.BaseDirectory, "appsettings.json");
 if (!File.Exists(appsettingsPath))
@@ -17,7 +11,7 @@ if (!File.Exists(appsettingsPath))
     // Every command's Model option defaults from PrinterModels.Default, which
     // lazily loads this file - check for it up front so a missing file gives a
     // clear message instead of an opaque failure once something touches it.
-    AnsiConsole.MarkupLine($"[bold red]appsettings.json not found at {appsettingsPath.EscapeMarkup()} - it must sit next to the exe.[/]");
+    AnsiConsole.MarkupLine($"[bold red]appsettings.json not found at {appsettingsPath.EscapeMarkup()}[/]");
     return 1;
 }
 
