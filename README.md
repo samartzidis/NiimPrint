@@ -12,8 +12,8 @@ A native Windows CLI for Niimbot BLE label printers.
 `b1`, `b18`, `b21`, `d11`, `d11_h`, `d110`
 
 Models and their specs (max head width, max density, DPI) are read from
-`appsettings.json` next to the exe, not hardcoded — to add or adjust a model,
-edit its `PrinterModels` array and add an entry, e.g.:
+`appsettings.json` next to the exe. To add or adjust a model,
+edit a printer entry, e.g.:
 
 ```json
 { "Name": "d61", "MaxHeadWidthPx": 384, "MaxDensity": 5, "Dpi": 203 }
